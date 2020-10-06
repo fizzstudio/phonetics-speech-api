@@ -35,7 +35,7 @@ var synth = window.speechSynthesis;
 window.onload = () => {
     const buttons = document.querySelectorAll("button");
     for(const button of buttons) {
-        button.addEventListener("click", speak );
+        button.addEventListener("click", speak);
     }
 }
 
